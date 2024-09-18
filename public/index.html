@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Seat Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Train Seat Booking System</h1>
+        <div class="form">
+            <label for="numSeats">Enter the number of seats to book (1-7): </label>
+            <input type="number" id="numSeats" min="1" max="7" />
+            <button id="bookBtn">Book Seats</button>
+          </div>
+          
+
+        <div class="seat-layout">
+            <h2>Seat Layout</h2>
+            <div id="seatContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
